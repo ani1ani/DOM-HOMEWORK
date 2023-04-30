@@ -1,0 +1,75 @@
+body {
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.filter-tasks {
+  display: inline-flex;
+  gap: 179px;
+  width: 600;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-color: #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-tasks button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-tasks button.active {
+  background-color: white;
+  color: black;
+  border-bottom-style: solid;
+  border-bottom-color: #2f80ed;
+}
+
+#form {
+  width: 50%;
+  display: flex;
+  gap: 25px;
+}
+
+#form > input {
+  font-size: 14px;
+  padding: 0 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  outline: none;
+  flex: 1;
+}
+
+#form > button {
+  color: white;
+  padding: 20px 40px;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#reset {
+  background: #eb5757;
+  position: absolute;
+  width: 124px;
+  height: 40px;
+  left: 900px;
+  top: 333px;
+  border-radius: 4px;
+}
